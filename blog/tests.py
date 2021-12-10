@@ -11,3 +11,6 @@ class ModelTesting(TestCase):
         d = self.blog
         self.assertTrue(isinstance(d, Post))
         self.assertEqual(str(d), 'django')
+
+    def test_one_equal_two(self):
+        self.assertTrue(1 ==2)
