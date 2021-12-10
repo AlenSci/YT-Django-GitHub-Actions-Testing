@@ -14,3 +14,6 @@ class ModelTesting(TestCase):
 
     def test_my(self):
         assert 1 == 1
+
+    def test_my2(self):
+        assert 1 == 2
