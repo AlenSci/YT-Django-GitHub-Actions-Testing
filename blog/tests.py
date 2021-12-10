@@ -2,6 +2,10 @@ from django.test import TestCase
 from . models import Post
 
 
+def test_my():
+    assert 1 == 1
+
+
 class ModelTesting(TestCase):
 
     def setUp(self):
@@ -11,6 +15,3 @@ class ModelTesting(TestCase):
         d = self.blog
         self.assertTrue(isinstance(d, Post))
         self.assertEqual(str(d), 'django')
-
-    def test_one_equal_two(self):
-        self.assertTrue(1 == 1)
