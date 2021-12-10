@@ -44,5 +44,5 @@ jobs:
         python3 manage.py test
 
     - name: pytest
-        run: |
-          pytest tests
+      run: |
+        pytest tests
